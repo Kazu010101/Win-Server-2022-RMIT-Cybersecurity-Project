@@ -10,7 +10,7 @@ One of my Blue teaming labs from my [RMIT Cybersecurity Project](https://github.
 - Windows Server 2022 ISO File
 - NAT Network Setting on Oracle VirtualBox
 
-## VM Installation Steps
+## Mount Windows Server ISO Image on Oracle VirtualBox
 - Open VirtualBox and click on New or CTRL+N to start the Windows Server VM installation.
 - On the new Create Virtual machine window, the fields are specified as follows:
 ![svr1](https://github.com/user-attachments/assets/8d513a44-309a-4f64-bcae-f7944bd3128a)
@@ -43,7 +43,17 @@ One of my Blue teaming labs from my [RMIT Cybersecurity Project](https://github.
 
 ![isofin4](https://github.com/user-attachments/assets/2e0855a9-943a-4417-a52e-ca49e814b3c0)
 
-*Figure 4: With the ISO image mounted, clicking start powers up the VM for the installation process.*
+*Figure 4: After the ISO image mounted, clicking Start icon powers up the VM for the installation process.*
+
+## Install of Windows Server VM
+
+- From the main installation windows:
+1. Choose the language, and Click on Next
+2. Click on Install now
+3. selected Windows server 2019 Datacenter evaluation (Desktop Experience)
+
+![wininstall](https://github.com/user-attachments/assets/fc2e485b-20a8-4a08-90dc-29adbb57c57a)
+
 
 ## Result
 
