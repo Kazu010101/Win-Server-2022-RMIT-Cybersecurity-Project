@@ -10,7 +10,7 @@ One of my Blue teaming labs from my [RMIT Cybersecurity Project](https://github.
 - Windows Server 2022 ISO File
 - NAT Network Setting on Oracle VirtualBox
 
-## Mount Windows Server ISO Image on Oracle VirtualBox
+## Step 1: Mount Windows Server ISO Image on Oracle VirtualBox
 - Open VirtualBox and click on New or CTRL+N to start the Windows Server VM installation.
 - On the new Create Virtual machine window, the fields are specified as follows:
 ![svr1](https://github.com/user-attachments/assets/8d513a44-309a-4f64-bcae-f7944bd3128a)
@@ -45,17 +45,32 @@ One of my Blue teaming labs from my [RMIT Cybersecurity Project](https://github.
 
 *Figure 4: After the ISO image mounted, clicking Start icon powers up the VM for the installation process.*
 
-## Install of Windows Server VM
+## Step 2: Install Windows Server VM
 
 - From the main installation windows:
-1. Choose the language, and Click on Next
+1. Choose the language, and time & currency format, and click on Next
 2. Click on Install now
-3. selected Windows server 2019 Datacenter evaluation (Desktop Experience)
+3. For GUI installation, select 'Windows Server 2022 Datacenter Evaluation (Desktop Experience), and click on Next
+4. Accept the license agreement and Click on Next
 
 ![wininstall](https://github.com/user-attachments/assets/fc2e485b-20a8-4a08-90dc-29adbb57c57a)
 
+*Figure 5: On step 3, selecting other options beside (Desktop Experience) will install using CLI.*
+
+5. Choose the installation as Custom
+6. Choose the hard disk defined earlier, and click on Next
+7. The windows server installation will now begin; this will take some time to finish
+8. Setup the admin password, and click Finish
+
+![wininstalfin](https://github.com/user-attachments/assets/67adee3b-63f3-4614-b050-56b09914ebb3)
+
+*Figure 6: After step 8, installation of Windows server 2022 in Oracle VirtualBox is completed and we can log in into the Windows Server. *
+
+we will have to install the VirtualBox guest addition, which will improve the performance of the windows server VM.
 
 ## Result
 
-The most important information from the nmap scan is that there are 3 open TCP ports, which are 135, 139, and 445. Considering that the target also uses Windows 10 OS, these information suggest that the host is running a file sharing service such as SMB protocol, which can be further exploited by the attacker.
+The Windows Server 2022 VM is installed. We can improve the performance by installing the VirtualBox guest addition. 
+
+The next important process in the project is to install Active Directory on Windows Server to have a centralized control over employees accounts. 
 
