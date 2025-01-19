@@ -64,9 +64,9 @@ One of my Blue teaming labs from my [RMIT Cybersecurity Project](https://github.
 
 ![wininstalfin](https://github.com/user-attachments/assets/67adee3b-63f3-4614-b050-56b09914ebb3)
 
-*Figure 6: After step 8, installation of Windows server 2022 in Oracle VirtualBox is completed and we can log in into the Windows Server. *
+*Figure 6: After step 8, installation of Windows server 2022 in Oracle VirtualBox is completed and we can log in into the Windows Server.*
 
-we will have to install the VirtualBox guest addition, which will improve the performance of the windows server VM.
+It is also recommended to install the VirtualBox guest addition, which will improve the performance of the Windows Server VM.
 
 ## Result
 
