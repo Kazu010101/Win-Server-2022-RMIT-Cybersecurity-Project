@@ -70,5 +70,5 @@ It is also recommended to install the VirtualBox guest addition, which will impr
 
 ## Result
 
-The Windows Server 2022 VM is installed. The next important process in the project is to install Active Directory on Windows Server to have a centralized control over the employees accounts. 
+The Windows Server 2022 VM is installed. The next important process in the project is to add a Domain Controller into Active Directory to have a centralized control over the employees accounts. 
 
